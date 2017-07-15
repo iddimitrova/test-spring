@@ -13,7 +13,7 @@ public class TestControler {
 
     @RequestMapping("/test/{name}")
     public String getTest(@PathVariable String name){
-        return "Test " + name;
+        return "Hello " + name;
     }
 
     @RequestMapping("/home")
